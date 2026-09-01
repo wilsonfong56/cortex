@@ -1,0 +1,24 @@
+{
+  "NVDA": {
+    "ticker": "NVDA",
+    "name": "NVIDIA Corporation",
+    "price": 172.4,
+    "week52_high": 191.0,
+    "pe_ratio": 48.2,
+    "fwd_pe": 32.1,
+    "revenue_growth_yoy": 55.6,
+    "gross_margin": 75.0,
+    "market_cap_fmt": "$4.2T"
+  },
+  "SPY": {
+    "ticker": "SPY",
+    "name": "SPDR S&P 500 ETF",
+    "price": 552.3,
+    "week52_high": 565.0,
+    "pe_ratio": 24.1,
+    "fwd_pe": 21.8,
+    "revenue_growth_yoy": 8.2,
+    "gross_margin": null,
+    "market_cap_fmt": "ETF"
+  }
+}

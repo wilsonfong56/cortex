@@ -1,0 +1,16 @@
+{
+  "underlying": "SPY",
+  "spot": 552.3,
+  "contracts": [
+    {"type": "call", "strike": 540, "oi": 12000, "gamma": 0.012},
+    {"type": "call", "strike": 545, "oi": 18000, "gamma": 0.018},
+    {"type": "call", "strike": 550, "oi": 25000, "gamma": 0.024},
+    {"type": "call", "strike": 555, "oi": 22000, "gamma": 0.022},
+    {"type": "call", "strike": 560, "oi": 15000, "gamma": 0.016},
+    {"type": "put",  "strike": 540, "oi": 21000, "gamma": 0.013},
+    {"type": "put",  "strike": 545, "oi": 24000, "gamma": 0.019},
+    {"type": "put",  "strike": 550, "oi": 27000, "gamma": 0.025},
+    {"type": "put",  "strike": 555, "oi": 16000, "gamma": 0.020},
+    {"type": "put",  "strike": 560, "oi": 9000,  "gamma": 0.014}
+  ]
+}
