@@ -71,7 +71,7 @@ fetch('/gex/api/gex').then(r=>r.json()).then(d=>{
   document.getElementById('net').textContent = d.net_gex.toLocaleString(undefined,{maximumFractionDigits:0});
   document.getElementById('flip').textContent = d.flip==null?'n/a':d.flip.toFixed(1);
   document.getElementById('tbl').innerHTML = d.by_strike.map(r=>
-    `<tr><td>${r.strike}</td><td>${r.gex.toLocaleString(undefined,{maximumFractionDigits:0})</td></tr>`
+    `<tr><td>${r.strike}</td><td>${r.gex.toLocaleString(undefined,{maximumFractionDigits:0})}</td></tr>`
   ).join('');
 });
 </script>
